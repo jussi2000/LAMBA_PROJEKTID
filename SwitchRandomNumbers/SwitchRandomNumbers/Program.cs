@@ -38,7 +38,6 @@
                 default:
                     Console.WriteLine("ERROR");
                    break;
-
             }
         }
     }
