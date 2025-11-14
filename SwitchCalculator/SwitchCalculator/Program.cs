@@ -17,7 +17,7 @@
             float secondNumber = float.Parse(Console.ReadLine());
 
             //teeme switchi lausega tehte valiku
-            switch(operation)
+            switch (operation)
             {
                 case "+":
                     Console.WriteLine(number + secondNumber);
@@ -26,13 +26,19 @@
                 case "-":
                     Console.WriteLine(number - secondNumber);
                     break;
-                
+
                 case "*":
                     Console.WriteLine(number * secondNumber);
                     break;
 
                 case "/":
-                    Console.WriteLine(number / secondNumber);
+                    if (secondNumber == 0)
+
+                        Console.WriteLine("Nulliga jagamine ei ole lubatud!");
+                    else
+
+                        Console.WriteLine(number / secondNumber);
+
                     break;
 
                 default:
