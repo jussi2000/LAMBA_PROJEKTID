@@ -20,7 +20,7 @@
             Console.WriteLine(aroundEarth);
             double howManyCoins = aroundEarth / CoinDiameter;
 
-            Console.WriteLine("kahe eurosid läheb ümber maa {0:0}", howManyCoins);
+            Console.WriteLine("kahe eurosid läheb ümber maa {0:0}",howManyCoins);
         }
     }
 }
