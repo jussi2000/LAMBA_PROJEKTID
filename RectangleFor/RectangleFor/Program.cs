@@ -21,11 +21,11 @@ namespace RectangleFor
                     string mark;
                     if (row == column || row + column <= +1)
                     {
-                        mark = "*";
+                       mark = "*";
                     }
                     else
                     {
-                        mark = "*";
+                       mark = "*";
                     }
                     Console.Write(mark);
                 }
