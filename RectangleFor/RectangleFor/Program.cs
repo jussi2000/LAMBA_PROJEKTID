@@ -6,7 +6,7 @@ namespace RectangleFor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Sisesta ristküliku kshr küljr mõõdud");
+            Console.WriteLine("Sisesta ristküliku kahe külje mõõdud");
             Console.WriteLine("Pikkus");
             double lenght = double.Parse(Console.ReadLine());
             
