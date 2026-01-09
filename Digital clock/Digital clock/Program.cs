@@ -1,4 +1,4 @@
-﻿namespace Digital_clock
+﻿namespace DigitalClock
 {
     internal class Program
     {
