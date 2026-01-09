@@ -26,7 +26,7 @@
 
             Console.WriteLine($"x1 = {(-b + Math.Sqrt(d)) / (2 * a)}, X2 = {(-b + Math.Sqrt(d)) / (2 * a)} ");
 
-            // INTERNETI POOLT:
+            // INTERNETIST:
 
         //    double[] ABC = getABC();
         //    double[] answerArray = QuadFormula(ABC);
