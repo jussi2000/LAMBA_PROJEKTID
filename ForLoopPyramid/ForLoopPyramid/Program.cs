@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Loome  ärnidest püramiidi \n");
+            Console.WriteLine("Loome  Tärnidest püramiidi \n");
             Console.WriteLine("----------------------------");
             Console.WriteLine("Sisesta suurus: ");
 
